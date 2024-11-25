@@ -1,17 +1,28 @@
 @SuppressWarnings("ALL")
 public class Student {
 
+        // Set & Get methods
 
-    //this keyword means inside the class i will show variabel of our class
-    public Student(String name){
+
+
+    private String name;
+    private String surname;
+    private String email;
+    private int age;
+
+    public void setName(String name){
         this.name = name;
-        this.email = email;
     }
+     public void setSurname(String surname){
+        this.surname = surname;
+     }
+     public String getName() {
+        return name;
+     }
+     public String getSurname(){
+        return surname;
+     }
 
-    public String name;
-    public String surname;
-    public String email;
-    public int age;
 
 }
 
