@@ -10,4 +10,16 @@ public class Employee {
         this.surname = surname;
         this.age = age;
     }
+
+    public void work(){
+        System.out.println(name +" is Working");
+    }
+
+    public void showInfo(){
+        System.out.println("Name " + name );
+        System.out.println("SurName " + surname );
+        System.out.println("Age " + age );
+
+
+    }
 }
