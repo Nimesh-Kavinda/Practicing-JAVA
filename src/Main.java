@@ -9,7 +9,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // default object method in java
+
+
+        // school is our reference name
+        // new is the Keyword that we use ro create objects
+        Apple school = new Apple();
 
     }
 }
