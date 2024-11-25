@@ -5,6 +5,9 @@ public class Student {
     // Default Constructer
      // Java Default Crate a constructors for us
 
+        public Student() {
+            System.out.println("It is Constructor and I am Running Automatically");
+        }
 
     private String name;
     public String surname;
