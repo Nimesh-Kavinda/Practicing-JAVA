@@ -1,17 +1,11 @@
 @SuppressWarnings("ALL")
 public class Student {
 
-    public String name;
+    private // This is Access Modifier
+    String name;
     public String surname;
-    public String email;
-    public int age;
+    private String email;
+    private int age;
 
-    public static void create() {
-        System.out.println("I am a Static Method. I belogns to calass");
-    }
-
-    public void put() {
-        System.out.println("Student Object is Craated and You used this method");
-    }
 }
 
