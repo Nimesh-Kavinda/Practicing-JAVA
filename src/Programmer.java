@@ -21,8 +21,10 @@ public class Programmer extends Employee {
         super.work();
     }
 
-    public void showInfo(){
-
+    @Override
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("Language "+ language);
     }
 
     // overwrite
