@@ -7,7 +7,8 @@ public class Main {
         programmer.work();
         CEO ceo = new CEO("Dimuth", "Adithya",30,12);
         ceo.showInfo();
-        ceo.work();
+        Driver driver = new Driver("Dulanka", "Nimshara", 25,3);
+        driver.showInfo();
     }
 
 
