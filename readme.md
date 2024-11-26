@@ -1,15 +1,4 @@
-Share
 
-
-You said:
-I am going to Practice main topics of java through my git hub..give me  a proper readme.md desription code to add in this repocity..i use intrli J IDE
-ChatGPT said:
-ChatGPT
-Memory updated
-Here’s a proper README.md template for your Java practice repository:
-
-markdown
-Copy code
 # Java Practice Repository
 
 This repository contains my practice work on core Java concepts, aimed at building a strong foundation in Java programming. I use **IntelliJ IDEA** as my primary development environment for this project.
