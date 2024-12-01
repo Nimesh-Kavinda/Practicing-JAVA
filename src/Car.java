@@ -1,9 +1,8 @@
 @SuppressWarnings("ALL")
-
-public class BMW extends Car {
+public class Car {
 
     public void run(){
-        System.out.println("BMW is Woriking");
+        System.out.println("Car is Woriking");
     }
     public static void stop(){
         System.out.println("Car is stopped");
