@@ -1,11 +1,8 @@
 @SuppressWarnings("ALL")
 public class Mercedees extends  Car{
 
-    public void run(){
-        System.out.println("Mercedees is Woriking");
+    @Override
+    public void run() {
+        super.run();
     }
-    public static void stop(){
-        System.out.println("Car is stopped");
-    }
-
 }
