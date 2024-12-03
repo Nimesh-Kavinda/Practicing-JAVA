@@ -4,12 +4,13 @@ public class Main {
 
 
     public static void main(String[] args) {
-    // what we can do using oop
+    // instanceof is use to compare
 
-        // Class
-        // Object
-        // Inheritance
-        // .java
+        Person person = new Person();
+        Student student = new Student();
+        Teacher teacher = new Teacher();
+
+        System.out.println(teacher instanceof Person);
 
     }
 }
